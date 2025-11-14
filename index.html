@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microproyecto</title>
+    <link rel="icon" href="./logooo.png">
+   
+ </head>
+ <body>
+    <!-- Sección del Encabezado -->
+     <header>
+     <h1>NATHALY PARRALES</h1>
+     <p>Voy paso a paso, aprendiendo siempre y dando lo mejor de mí.</p>
+     <img src="imagen/img mia.jpg" width="200px" height="300px" alt="mi foto">
+     </header>
+
+    <nav>
+        <!-- Menú de navegación -->
+        <ul>
+            <li><a href="#sobremi">Sobre mí</a></li>
+            <li><a href="#Listadeinteresesologros">Lista de intereses o logros</a></li>
+            <li><a href="#Tabladehabilidades">Tabla de habilidades</a></li>
+            <li><a href="#presentacionpersonal">Presentación personal</a></li>
+            <li><a href="#formulariodecontacto">Formulario de contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- 3. Sección Sobre mí -->
+
+    <section id="sobremi">
+        <h2>Sobre mí</h2>
+        <p>
+            Soy una persona <strong>muy divertida, poco resentida, amable, solidaria y empática</strong>,
+            siempre buscando crecer y aprender algo nuevo cada día, 
+            <strong><mark>me caracterizo por ser una persona muy responsable y comprometida con todo lo que hago</mark></strong>, 
+            aunque <em>a veces me estreso un poquito pero siempre termino lográndolo.</em>
+            Me gusta trabajar con dedicación y dar siempre lo mejor de mí.
+            Me considero alguien <strong>respetuosa, perseverante y abierta a seguir mejorando</strong>.
+        </p>
+    </section>
+
+    <!-- 4. Lista de intereses o logros -->
+    <section id="Listadeinteresesologros">
+        <h2>Lista de intereses o logros</h2>
+
+        <ul>
+            <li>He aprendido a manejar mejor el estrés y la presión</li>
+            <li>Me interesa mucho la tecnología y el aprendizaje constante</li>
+            <li>He conocido lugares nuevos y he conectado con la naturaleza</li>
+            <li>He mejorado mi responsabilidad y disciplina con el estudio</li>
+            <li>Me gusta mucho tomar fotos</li>
+            <li>Me gusta demostrar mi creatividad cada día</li>
+        </ul>
+    </section>
+
+    <!-- 5. Tabla de habilidades -->
+
+    <section id="Tabladehabilidades">
+        <h2>Tabla de habilidades</h2>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Habilidad</th>
+                    <th>Nivel</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr><td>Comunicación</td><td>Media</td></tr>
+                <tr><td>Trabajo en equipo</td><td>Alta</td></tr>
+                <tr><td>Creatividad</td><td>Muy alta</td></tr>
+                <tr><td>Responsabilidad</td><td>Alta</td></tr>
+                <tr><td>Uso de tecnología</td><td>Normal</td></tr>
+                <tr><td>Paciencia</td><td>Baja</td></tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="2">dia a dia me esfuerzo para mejorar mis habilidades</td>
+            </tr>
+            </tfoot>
+            </table>
+    </section>
+
+    <!-- 6. Presentación personal -->
+    <section id="presentacionpersonal">
+        <h2>Presentación personal</h2>
+
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <!-- 7. FORMULARIO DE CONTACTO  -->
+    <section id="formulariodecontacto">
+        <h2>Formulario de Contacto</h2>
+
+        <form action="https://formsubmit.co/parralesnathaly82@gmail.com"  method="post">
+         
+            <!-- Nombre -->
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <!-- Correo -->
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo" required><br><br>
+
+            <!-- Edad -->
+            <label for="edad">Edad:</label><br>
+            <input type="number" id="edad" name="edad" min="1" max="100" required><br><br>
+
+            <!-- Género -->
+            <label>Género:</label><br>
+            <input type="radio" id="femenino" name="genero" value="femenino" required>
+            <label for="femenino">Femenino</label><br>
+
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label><br>
+
+            <input type="radio" id="otro" name="genero" value="otro">
+            <label for="otro">Otro</label><br><br>
+
+            <!-- Intereses -->
+            <label>Intereses:</label><br>
+            <input type="checkbox" id="musica" name="intereses" value="musica">
+            <label for="musica">Música</label><br>
+
+            <input type="checkbox" id="deporte" name="intereses" value="deporte">
+            <label for="deporte">Deporte</label><br>
+
+            <input type="checkbox" id="tecnologia" name="intereses" value="tecnologia">
+            <label for="tecnologia">Tecnología</label><br>
+
+            <input type="checkbox" id="pintura" name="intereses" value="pintura">
+            <label for="pintura">Pintura</label><br><br>
+
+            <!-- Comentarios -->
+            <label for="comentarios">Comentarios:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="40" required></textarea><br><br>
+
+            <!-- Botón -->
+            <input type="submit" value="Enviar">
+
+        </form>
+    </section>
+
+     <!-- PIE DE PÁGINA -->
+        <footer style="text-align:center; padding:20px; background-color:#ede5e5;">
+         <p>© 2025 Nathaly Parrales. Todos los derechos reservados.</p>
+        <p>
+        Sígueme en:
+     <a href="https://www.facebook.com/nathalyparrales" target="_blank">Facebook</a> 
+        </p>
+
+</footer>
+ 
+</body>
+</html>
